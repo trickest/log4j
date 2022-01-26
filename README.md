@@ -1,11 +1,11 @@
 # Trickest Log4j
-Several versions of Apache Log4j are vulnerable to remote code execution (RCE). A lot of bypasses and payloads have been published; this repostitory aims to provide a solution that allows security teams to use all of this knowledge effectively.
+Several versions of Apache Log4j are vulnerable to remote code execution (RCE). A lot of bypasses and payloads have been published; this repository aims to provide a solution that allows security teams to use all of this knowledge effectively.
 
 ## Motivation
-With all the research done on Log4j everyday, we found it important to create a consistent process that can:
+With all the research done on Log4j every day, we found it important to create a consistent process that can:
 - incorporate all of the techniques that were published and proven to be effective
 - scale across thousands of assets
-- integrate new discovery techniques as quickly as they are found
+- integrate discovery techniques as quickly as they are found
 
 So We designed a [Trickest](https://trickest.com) workflow.
 
