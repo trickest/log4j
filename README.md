@@ -21,8 +21,8 @@ So We designed a [Trickest](https://trickest.com) workflow. The primary input is
 - Use [unfurl](https://github.com/tomnomnom/unfurl) to insert the callback URL with a custom endpoint into each payload - this will help us correlate each hit to a target and an attack technique (Thanks [tomnomnom](https://github.com/tomnomnom)!)
 - Use [thchydra](https://github.com/vanhauser-thc/thc-hydra) to send the payloads to all targets across different services.
 - Use [cent](https://github.com/xm1k3/cent) to collect community nuclei templates (Thanks [xm1k3](https://github.com/xm1k3)!).
-- Use a few custom and community [nuclei](https://github.com/projectdiscovery/nuclei) templates to test using different techniques ([ProjectDiscovery](https://github.com/projectdiscovery)!, thanks again!)
-- Use an [interactsh](https://github.com/projectdiscovery/interactsh) client to poll the URL and get a list of vulnerable hosts (Seriously @ProjectDiscovery, thank you!)
+- Use a few custom and community [nuclei](https://github.com/projectdiscovery/nuclei) templates to test using different techniques ([ProjectDiscovery](https://github.com/projectdiscovery), thanks again!)
+- Use an [interactsh](https://github.com/projectdiscovery/interactsh) client to poll the URL and get a list of vulnerable hosts (Seriously [ProjectDiscovery](https://github.com/projectdiscovery), thank you!)
 - Generate the final report that contains all the results.
 
 ## How to Update
