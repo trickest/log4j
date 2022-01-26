@@ -16,9 +16,9 @@ This workflow is used:
 
 ### TB; DZ (Too big; didn't zoom):
 - Get a list of payloads from this repository's `payloads` folder
-- Add some control characters that we found useful while bypassing WAFs to each payload
-- Use an [interactsh](https://github.com/projectdiscovery/interactsh) client to generate a callback URL. (Thanks @ProjectDiscovery)
-- Use [unfurl](https://github.com/tomnomnom/unfurl) to insert the callback URL with a custom endpoint into each payload - this will help us correlate each hit to a target and an attack technique (Thanks @tomnomnom)
+- Add some control characters that we found useful while bypassing WAFs to each payload.
+- Use an [interactsh](https://github.com/projectdiscovery/interactsh) client to generate a callback URL. (Thanks [ProjectDiscovery](https://github.com/projectdiscovery)!)
+- Use [unfurl](https://github.com/tomnomnom/unfurl) to insert the callback URL with a custom endpoint into each payload - this will help us correlate each hit to a target and an attack technique (Thanks [tomnomnom](https://github.com/tomnomnom)!)
 - Use [Hydra](https://github.com/vanhauser-thc/thc-hydra) to send the payloads to all targets across different services.
 - Use [cent](https://github.com/xm1k3/cent) to collect community nuclei templates (Thanks @xm1k3 and everyone contributing to open-source nuclei templates!).
 - Use a few custom and community [nuclei](https://github.com/projectdiscovery/nuclei) templates to test using different techniques (Thanks again @ProjectDiscovery)
@@ -37,4 +37,4 @@ To update the techniques used you can either:
 - [unfurl](https://github.com/tomnomnom/unfurl)
 - [cent](https://github.com/xm1k3/cent)
 - [nuclei](https://github.com/projectdiscovery/nuclei)
-- [nuclei templates](https://github.com/projectdiscovery/nuclei-templates)
+- [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)
