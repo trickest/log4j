@@ -1,57 +1,40 @@
 # Trickest Log4j
-
-## Short description
-
-Apache Log4j2 versions 2.0-beta7 through 2.17.0 (excluding security fix releases 2.3.2 and 2.12.4) are vulnerable to a remote code execution (RCE). 
+Several versions of Apache Log4j are vulnerable to remote code execution (RCE). A lot of bypasses and payloads have been published; this repostitory aims to provide a solution that allows security teams to use all of this knowledge effectively.
 
 ## Motivation
+With all the research done on Log4j everyday, we found it important to create a consistent process that can:
+- incorporate all of the techniques that were published and proven to be effective
+- scale across thousands of assets
+- integrate new discovery techniques as quickly as they are found
 
-After a huge number of bypass payloads, we decided it is the right time to automate everything through [Trickest](https://trickest.com) workflow and just add new vectors to this repository which would alter the workflow and potentially bypass current fixes.
+So We designed a [Trickest](https://trickest.com) workflow.
 
-### Different techniques
+## How it works
+This workflow is used:
 
-Constantly updated
 
-You can checkout [issues](https://github.com/trickest/log4j/issues) for our current ideas that will be implemented in the future versions of the workflow. [README.md](http://README.md) will be updated accordingly.
 
-Scalability
+### TB; DZ (Too big; didn't zoom):
+- Get a list of payloads from this repository's `payloads` folder
+- Add some control characters that we found useful while bypassing WAFs to each payload
+- Use an [interactsh](https://github.com/projectdiscovery/interactsh) client to generate a callback URL. (Thanks @ProjectDiscovery)
+- Use [unfurl](https://github.com/tomnomnom/unfurl) to insert the callback URL with a custom endpoint into each payload - this will help us correlate each hit to a target and an attack technique (Thanks @tomnomnom)
+- Use [Hydra](https://github.com/vanhauser-thc/thc-hydra) to send the payloads to all targets across different services.
+- Use [cent](https://github.com/xm1k3/cent) to collect community nuclei templates (Thanks @xm1k3 and everyone contributing to open-source nuclei templates!).
+- Use a few custom and community [nuclei](https://github.com/projectdiscovery/nuclei) templates to test using different techniques (Thanks again @ProjectDiscovery)
+- Use an [interactsh](https://github.com/projectdiscovery/interactsh) client to poll the URL and get a list of vulnerable hosts (Seriously @ProjectDiscovery, thank you!)
+- Generate the final report that contains all the results.
 
-Workflow is currently capable of getting the list of hostnames executing the workflow explained in TB;DZ. Through issues, it will be constantly updated as well as all the payloads used in inside of the workflow.
+## How to Update
+The workflow uses this repository as a source, so any techniques added here will be picked up and used automatically. Check out the [issues](https://github.com/trickest/log4j/issues) for a list of ideas that will be implemented in future versions of the workflow. [README.md](http://README.md) will be updated accordingly.
 
-Customization
+To update the techniques used you can either:
+- Add string payloads to the ```payloads``` folder.
+- Add nuclei templates to the ```custom``` folder.
 
-Workflow is entirely customizable to support different range of use-cases:
- * By changing the payloads in ```payloads``` folder it will pick up new ones and execute workflow.
- * By adding new nuclei templates in ```custom``` folder will alter the [nuclei](https://github.com/projectdiscovery/nuclei) execution.
-
-- Process
-    - Workflow screenshot
-    - TB; DZ explanation
-- Lessons Learned
-    - 
-- Resources (give credit to original authors)
-    - tools
-        - [cent](https://github.com/xm1k3/cent)
-        - [cent-yaml](https://github.com/trickest/log4j/issues)
-        - [nuclei](https://github.com/projectdiscovery/nuclei)
-        - [unfurl](https://github.com/tomnomnom/unfurl)
-        - [thchydra](https://github.com/vanhauser-thc/thc-hydra)
-    - payloads
-        - payload - twitter/github links
-    - nuclei-templates
-        - template-id - https://github.com/author
-
-# Directory Structure
-
-- **payloads**
-    - manual.txt # files that are added to the repository manually by editing the workflow, or by committing to this repository
-    - null-bytes.txt
-    - tab.txt
-    - new-line.txt
-    - all.txt
-- **nuclei-templates**
-    - custom
-    - community
-- services.txt
-- example-report.txt
-- **README.md**
+## Resources
+- [thchydra](https://github.com/vanhauser-thc/thc-hydra)
+- [unfurl](https://github.com/tomnomnom/unfurl)
+- [cent](https://github.com/xm1k3/cent)
+- [nuclei](https://github.com/projectdiscovery/nuclei)
+- [nuclei templates](https://github.com/projectdiscovery/nuclei-templates)
