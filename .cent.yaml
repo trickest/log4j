@@ -1,6 +1,3 @@
-exclude-dirs:
-  - SOMETHING
-
 # Files to exclude
 exclude-files:
   - README.md
