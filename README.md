@@ -38,3 +38,26 @@ To update the techniques used you can either:
 - [cent](https://github.com/xm1k3/cent)
 - [nuclei](https://github.com/projectdiscovery/nuclei)
 - [nuclei-templates](https://github.com/projectdiscovery/nuclei-templates)
+
+    - [custom-nuclei-1](https://github.com/kljunowsky/nuclei-templates/blob/master/cves/2021/log4j_v1.yaml)
+    - Template authors: melbadry9, dhiyaneshDK, daffainfo (Edited by kljunowsky)
+    - [custom-nuclei-2](https://github.com/kljunowsky/nuclei-templates/blob/master/cves/2021/log4j_v2.yaml)
+    - Template authors: melbadry9, dhiyaneshDK, daffainfo (Edited by kljunowsky)
+    - [custom-nuclei-3](https://github.com/kljunowsky/nuclei-templates/blob/master/cves/2021/log4j_v3.yaml)
+    - Template authors: melbadry9, dhiyaneshDK, daffainfo (Edited by kljunowsky)
+    - [custom-nuclei-4](https://github.com/kljunowsky/nuclei-templates/blob/master/cves/2021/log4j_v4.yaml)
+    - Template authors: melbadry9, dhiyaneshDK, daffainfo (Edited by kljunowsky)
+    - [custom-nuclei-5](https://github.com/kljunowsky/nuclei-templates/blob/master/cves/2021/log4j_v5.yaml)
+    - Template authors: melbadry9, dhiyaneshDK, daffainfo (Edited by kljunowsky)
+    - [custom-nuclei-6](https://github.com/kljunowsky/nuclei-templates/blob/master/cves/2021/log4j_v6.yaml)
+    - Template authors: melbadry9, dhiyaneshDK, daffainfo (Edited by kljunowsky)
+    - [custom-nuclei-7](https://github.com/kljunowsky/nuclei-templates/blob/master/cves/2021/log4j_v7.yaml)
+    - Template authors: melbadry9, dhiyaneshDK, daffainfo (Edited by kljunowsky)
+    - [custom-nuclei-8](https://github.com/kljunowsky/nuclei-templates/blob/master/cves/2021/log4j_v8.yaml)
+    - Template authors: melbadry9, dhiyaneshDK, daffainfo (Edited by kljunowsky)
+    - [custom-nuclei-9](https://github.com/kljunowsky/nuclei-templates/blob/master/cves/2021/log4j_v9.yaml)
+    - Template authors: melbadry9, dhiyaneshDK, daffainfo (Edited by kljunowsky)
+- Payloads sources: 
+    - https://twitter.com/ozgur_bbh/status/1471803792572223493
+    - https://github.com/fullhunt/log4j-scan/blob/master/log4j-scan.py
+    - Community from Twitter!
