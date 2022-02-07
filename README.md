@@ -12,7 +12,7 @@ So We designed a [Trickest](https://trickest.com) workflow. The primary input is
 ## How it works
 [Trickest](https://trickest.com) Workflow used:
 
-![Log4jWorkflow](workflow.gif)
+![Log4jWorkflow](workflow.png)
 
 ### TB; DZ (Too big; didn't zoom):
 - Get a list of payloads from this repository's `payloads` folder
@@ -26,7 +26,7 @@ So We designed a [Trickest](https://trickest.com) workflow. The primary input is
 - Generate the final report that contains all the results.
 
 ## How to Update
-The workflow uses this repository as a source (soon! [issue #2](https://github.com/trickest/log4j/issues/2)), so any attack payloads added to this repository will be picked up and used automatically. Check out the [issues](https://github.com/trickest/log4j/issues) for a list of ideas that will be implemented in future versions of the workflow. [README.md](http://README.md) will be updated accordingly.
+The workflow uses this repository as a source, so any attack payloads added to this repository will be picked up and used automatically. Check out the [issues](https://github.com/trickest/log4j/issues) for a list of ideas that will be implemented in future versions of the workflow. [README.md](http://README.md) will be updated accordingly.
 
 To update the techniques used you can either:
 - Add string payloads to the ```payloads``` folder.
